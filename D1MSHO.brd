@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -154,22 +154,22 @@
 </layers>
 <board>
 <plain>
-<text x="21.082" y="13.589" size="0.889" layer="25" font="vector" ratio="15">D4</text>
-<text x="21.082" y="18.669" size="0.889" layer="25" font="vector" ratio="15">D2</text>
-<text x="21.082" y="21.209" size="0.889" layer="25" font="vector" ratio="15">D1</text>
-<text x="21.082" y="23.749" size="0.889" layer="25" font="vector" ratio="15">RX</text>
-<text x="21.082" y="26.289" size="0.889" layer="25" font="vector" ratio="15">TX</text>
-<text x="21.082" y="16.129" size="0.889" layer="25" font="vector" ratio="15">D3</text>
-<text x="21.844" y="11.049" size="0.8128" layer="25" font="vector" ratio="15">G</text>
-<text x="2.794" y="26.289" size="0.8128" layer="25" font="vector" ratio="15">RST</text>
-<text x="21.082" y="8.509" size="0.8128" layer="25" font="vector" ratio="15">5V</text>
-<text x="2.794" y="18.669" size="0.889" layer="25" font="vector" ratio="15">D5</text>
-<text x="2.794" y="16.129" size="0.889" layer="25" font="vector" ratio="15">D6</text>
-<text x="2.794" y="23.749" size="0.889" layer="25" font="vector" ratio="15">A0</text>
-<text x="2.794" y="8.509" size="0.8128" layer="25" font="vector" ratio="15">3V3</text>
-<text x="2.794" y="11.049" size="0.889" layer="25" font="vector" ratio="15">D8</text>
-<text x="2.794" y="13.589" size="0.889" layer="25" font="vector" ratio="15">D7</text>
-<text x="2.794" y="21.209" size="0.889" layer="25" font="vector" ratio="15">D0</text>
+<text x="21.082" y="13.589" size="0.889" layer="21" font="vector" ratio="15">D4</text>
+<text x="21.082" y="18.669" size="0.889" layer="21" font="vector" ratio="15">D2</text>
+<text x="21.082" y="21.209" size="0.889" layer="21" font="vector" ratio="15">D1</text>
+<text x="21.082" y="23.749" size="0.889" layer="21" font="vector" ratio="15">RX</text>
+<text x="21.082" y="26.289" size="0.889" layer="21" font="vector" ratio="15">TX</text>
+<text x="21.082" y="16.129" size="0.889" layer="21" font="vector" ratio="15">D3</text>
+<text x="21.844" y="11.049" size="0.8128" layer="21" font="vector" ratio="15">G</text>
+<text x="2.794" y="26.289" size="0.8128" layer="21" font="vector" ratio="15">RST</text>
+<text x="21.082" y="8.509" size="0.8128" layer="21" font="vector" ratio="15">5V</text>
+<text x="2.794" y="18.669" size="0.889" layer="21" font="vector" ratio="15">D5</text>
+<text x="2.794" y="16.129" size="0.889" layer="21" font="vector" ratio="15">D6</text>
+<text x="2.794" y="23.749" size="0.889" layer="21" font="vector" ratio="15">A0</text>
+<text x="2.794" y="8.509" size="0.8128" layer="21" font="vector" ratio="15">3V3</text>
+<text x="2.794" y="11.049" size="0.889" layer="21" font="vector" ratio="15">D8</text>
+<text x="2.794" y="13.589" size="0.889" layer="21" font="vector" ratio="15">D7</text>
+<text x="2.794" y="21.209" size="0.889" layer="21" font="vector" ratio="15">D0</text>
 <wire x1="25.4" y1="31.75" x2="25.4" y2="1.27" width="0.0254" layer="20"/>
 <wire x1="24.13" y1="0" x2="3.175" y2="0" width="0.0254" layer="20"/>
 <wire x1="0" y1="7.62" x2="0" y2="31.75" width="0.0254" layer="20"/>
@@ -180,6 +180,34 @@
 <wire x1="0" y1="7.62" x2="1.905" y2="6.35" width="0.0254" layer="20"/>
 <wire x1="1.905" y1="6.35" x2="1.905" y2="1.27" width="0.0254" layer="20"/>
 <wire x1="1.905" y1="1.27" x2="3.175" y2="0" width="0.0254" layer="20" curve="90"/>
+<text x="2.794" y="26.289" size="0.8128" layer="22" font="vector" ratio="15" rot="MR0" align="bottom-right">RST</text>
+<text x="2.794" y="18.669" size="0.889" layer="22" font="vector" ratio="15" rot="MR0" align="bottom-right">D5</text>
+<text x="2.794" y="16.129" size="0.889" layer="22" font="vector" ratio="15" rot="MR0" align="bottom-right">D6</text>
+<text x="2.794" y="23.749" size="0.889" layer="22" font="vector" ratio="15" rot="MR0" align="bottom-right">A0</text>
+<text x="2.794" y="8.509" size="0.8128" layer="22" font="vector" ratio="15" rot="MR0" align="bottom-right">3V3</text>
+<text x="2.794" y="11.049" size="0.889" layer="22" font="vector" ratio="15" rot="MR0" align="bottom-right">D8</text>
+<text x="2.794" y="13.589" size="0.889" layer="22" font="vector" ratio="15" rot="MR0" align="bottom-right">D7</text>
+<text x="2.794" y="21.209" size="0.889" layer="22" font="vector" ratio="15" rot="MR0" align="bottom-right">D0</text>
+<text x="22.606" y="13.589" size="0.889" layer="22" font="vector" ratio="15" rot="MR0">D4</text>
+<text x="22.606" y="18.669" size="0.889" layer="22" font="vector" ratio="15" rot="MR0">D2</text>
+<text x="22.606" y="21.209" size="0.889" layer="22" font="vector" ratio="15" rot="MR0">D1</text>
+<text x="22.606" y="23.749" size="0.889" layer="22" font="vector" ratio="15" rot="MR0">RX</text>
+<text x="22.606" y="26.289" size="0.889" layer="22" font="vector" ratio="15" rot="MR0">TX</text>
+<text x="22.606" y="16.129" size="0.889" layer="22" font="vector" ratio="15" rot="MR0">D3</text>
+<text x="22.606" y="11.049" size="0.8128" layer="22" font="vector" ratio="15" rot="MR0">GND</text>
+<text x="22.606" y="8.509" size="0.8128" layer="22" font="vector" ratio="15" rot="MR0">5V</text>
+<text x="8.382" y="1.524" size="1.016" layer="21" font="vector" ratio="12" rot="R270" align="bottom-right">(C)2016 SuperHouse Pty Ltd</text>
+<text x="12.7" y="29.21" size="1.016" layer="21" font="vector" ratio="18" distance="40" align="bottom-center">D1 Mini
+Shield Outline</text>
+<text x="9.906" y="28.194" size="0.8128" layer="21" font="vector" ratio="18">by Jon Oxer</text>
+<wire x1="0" y1="27.94" x2="2.54" y2="27.94" width="0.254" layer="22"/>
+<wire x1="2.54" y1="27.94" x2="2.54" y2="7.62" width="0.254" layer="22"/>
+<wire x1="2.54" y1="7.62" x2="0" y2="7.62" width="0.254" layer="22"/>
+<wire x1="0" y1="7.62" x2="0" y2="27.94" width="0.254" layer="22"/>
+<wire x1="22.86" y1="27.94" x2="25.4" y2="27.94" width="0.254" layer="22"/>
+<wire x1="25.4" y1="27.94" x2="25.4" y2="7.62" width="0.254" layer="22"/>
+<wire x1="25.4" y1="7.62" x2="22.86" y2="7.62" width="0.254" layer="22"/>
+<wire x1="22.86" y1="7.62" x2="22.86" y2="27.94" width="0.254" layer="22"/>
 </plain>
 <libraries>
 <library name="freetronics-original">
@@ -457,10 +485,10 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="JP3" library="freetronics-original" package="1X08" value="" x="1.27" y="26.67" smashed="yes" rot="R270">
+<element name="H1" library="freetronics-original" package="1X08" value="" x="1.27" y="26.67" smashed="yes" rot="R270">
 <attribute name="VALUE" x="-1.905" y="27.94" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="JP4" library="freetronics-original" package="1X08" value="" x="24.13" y="26.67" smashed="yes" rot="R270">
+<element name="H2" library="freetronics-original" package="1X08" value="" x="24.13" y="26.67" smashed="yes" rot="R270">
 <attribute name="VALUE" x="20.955" y="27.94" size="1.27" layer="27" rot="R270"/>
 </element>
 </elements>
@@ -492,54 +520,60 @@ design rules under a new name.</description>
 <vertex x="3.175" y="0"/>
 <vertex x="24.13" y="0" curve="90"/>
 </polygon>
-<contactref element="JP4" pad="7"/>
+<contactref element="H2" pad="7"/>
 </signal>
 <signal name="D1">
-<contactref element="JP4" pad="3"/>
+<contactref element="H2" pad="3"/>
 </signal>
 <signal name="D2">
-<contactref element="JP4" pad="4"/>
+<contactref element="H2" pad="4"/>
 </signal>
 <signal name="D5">
-<contactref element="JP3" pad="4"/>
+<contactref element="H1" pad="4"/>
 </signal>
 <signal name="D6">
-<contactref element="JP3" pad="5"/>
+<contactref element="H1" pad="5"/>
 </signal>
 <signal name="D7">
-<contactref element="JP3" pad="6"/>
+<contactref element="H1" pad="6"/>
 </signal>
 <signal name="D8">
-<contactref element="JP3" pad="7"/>
+<contactref element="H1" pad="7"/>
 </signal>
 <signal name="A0">
-<contactref element="JP3" pad="2"/>
+<contactref element="H1" pad="2"/>
 </signal>
 <signal name="D0">
-<contactref element="JP3" pad="3"/>
+<contactref element="H1" pad="3"/>
 </signal>
 <signal name="D3">
-<contactref element="JP4" pad="5"/>
+<contactref element="H2" pad="5"/>
 </signal>
 <signal name="D4">
-<contactref element="JP4" pad="6"/>
+<contactref element="H2" pad="6"/>
 </signal>
 <signal name="RX">
-<contactref element="JP4" pad="2"/>
+<contactref element="H2" pad="2"/>
 </signal>
 <signal name="TX">
-<contactref element="JP4" pad="1"/>
+<contactref element="H2" pad="1"/>
 </signal>
 <signal name="5V">
-<contactref element="JP4" pad="8"/>
+<contactref element="H2" pad="8"/>
 </signal>
 <signal name="RST">
-<contactref element="JP3" pad="1"/>
+<contactref element="H1" pad="1"/>
 </signal>
 <signal name="3.3V">
-<contactref element="JP3" pad="8"/>
+<contactref element="H1" pad="8"/>
 </signal>
 </signals>
 </board>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>
